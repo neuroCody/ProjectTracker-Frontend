@@ -1,0 +1,120 @@
+header {
+  color: #F7F7E8;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2{
+  margin-bottom: 100px;
+}
+
+h6 {
+
+}
+
+ul{
+  color:#F7F7E8;
+}
+
+#logo{
+  width: 100%;
+
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(rgba(36,22,99,1), rgba(36,22,99,0.8333034515380859));
+  opacity: 3;
+  border:none;
+}
+
+.navbar {
+  background: linear-gradient(rgba(36,22,99,0.8333034515380859), rgba(167,38,147,0.8176479935646057));
+  opacity: 3;
+}
+
+#hexagon1 {
+  width: 280px;
+  height: 115.506px;
+  background: white;
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border-left: 4px solid #8BCDCD;
+  border-top: 4px solid #8BCDCD;
+  border-bottom: 4px solid #8BCDCD;
+  border-radius: 5px;
+}
+#hexagon1::before {
+  content: "";
+  position: absolute;
+  top: -57.753px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 57.753px solid #8BCDCD;
+}
+#hexagon1::after {
+  content: "";
+  position: absolute;
+  bottom: -57.753px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 57.753px solid #8BCDCD;
+}
+#hexagon1:hover{
+  
+}
+
+#develop{
+  font-size: 75px;
+}
+
+#hexagon2 {
+  width: 320px;
+  height: 115.506px;
+  background: white;
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border-right: 4px solid #ADCE74;
+  border-top: 4px solid #ADCE74;
+  border-bottom: 4px solid #ADCE74;
+  border-radius: 5px;
+}
+#hexagon2::before {
+  content: "";
+  position: absolute;
+  top: -57.753px;
+  left: 120px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 57.753px solid #ADCE74;
+}
+#hexagon2::after {
+  content: "";
+  position: absolute;
+  bottom: -57.753px;
+  left: 120px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 57.753px solid #ADCE74;
+}
+
+#organize{
+  font-size: 75px;
+}
