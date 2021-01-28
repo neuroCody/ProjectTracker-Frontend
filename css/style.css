@@ -3,12 +3,13 @@ header {
 }
 
 body{
-  background-color: #ffe3de;
+  background-color: white;
+  font-family: 'Zilla Slab', serif;
 }
 
 
 h1 {
-  font-size: rem;
+  font-size: 4.5rem;
 }
 
 h2{
@@ -26,16 +27,29 @@ h6 {
 
 }
 
+.media-body {
+  font-size: 25px;
+}
+
+
+.card-body{
+  font-size: 25px;
+}
+
+.site-footer {
+  background-image: linear-gradient(rgba(21,14,48,0.9300000071525574), rgba(21,14,48,0.8859677314758301));
+  padding: 20px 0px;
+}
+
 .jumbotron {
   margin: 0;
   padding: 20px;
-  background: linear-gradient(rgba(36,22,99,1), rgba(36,22,99,0.8333034515380859));
-  opacity: 3;
+  background: linear-gradient(rgba(36,22,99,1), rgb(36, 22, 99));
   border:none;
 }
 
 .navbar {
-  background: linear-gradient(rgba(36,22,99,0.8333034515380859), rgba(167,38,147,0.8176479935646057));
+  background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
 }
 
 #tagline{
@@ -49,14 +63,15 @@ h6 {
 #hexagon1 {
   width: 280px;
   height: 115.506px;
-  background: #ffe3de;
+  background: white;
   position: relative;
-  margin-top: 50px;
+  margin: auto;
   display: flex;
+  float: left;
   justify-content: center;
-  border-left: 4px solid #8BCDCD;
-  border-top: 4px solid #8BCDCD;
-  border-bottom: 4px solid #8BCDCD;
+  border-left: 4px solid #0ebebe;
+  border-top: 4px solid #0ebebe;
+  border-bottom: 4px solid #0ebebe;
   border-radius: 5px;
 }
 #hexagon1::before {
@@ -68,7 +83,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 57.753px solid #8BCDCD;
+  border-bottom: 57.753px solid #0ebebe;
 }
 #hexagon1::after {
   content: "";
@@ -79,7 +94,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-top: 57.753px solid #8BCDCD;
+  border-top: 57.753px solid #0ebebe;
 }
 #hexagon1:hover{
   
@@ -92,14 +107,15 @@ h6 {
 #hexagon2 {
   width: 320px;
   height: 115.506px;
-  background: #ffe3de;
+  background: white;
   position: relative;
-  margin-top: 50px;
+  margin: auto;
   display: flex;
+  float: right;
   justify-content: center;
-  border-right: 4px solid #ADCE74;
-  border-top: 4px solid #ADCE74;
-  border-bottom: 4px solid #ADCE74;
+  border-right: 4px solid #92d61c;
+  border-top: 4px solid #92d61c;
+  border-bottom: 4px solid #92d61c;
   border-radius: 5px;
 }
 #hexagon2::before {
@@ -111,7 +127,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 57.753px solid #ADCE74;
+  border-bottom: 57.753px solid #92d61c;
 }
 #hexagon2::after {
   content: "";
@@ -122,24 +138,21 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-top: 57.753px solid #ADCE74;
+  border-top: 57.753px solid #92d61c;
 }
 
-#organize{
-  font-size: 75px;
-}
 
 #hexagon3 {
   width: 400px;
   height: 115.506px;
-  background: #ffe3de;
+  background: white;
   position: relative;
-  margin-top: 50px;
+  margin: auto;
   display: flex;
   justify-content: center;
-  border-left: 4px solid #F1E189 ;
-  border-top: 4px solid #F1E189 ;
-  border-bottom: 4px solid #F1E189 ;
+  border-left: 4px solid #f1d325 ;
+  border-top: 4px solid #f1d325 ;
+  border-bottom: 4px solid #f1d325 ;
   border-radius: 5px;
 }
 #hexagon3::before {
@@ -151,7 +164,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 57.753px solid #F1E189 ;
+  border-bottom: 57.753px solid #f1d325 ;
 }
 #hexagon3::after {
   content: "";
@@ -162,20 +175,21 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-top: 57.753px solid #F1E189 ;
+  border-top: 57.753px solid #f1d325 ;
 }
 
 #hexagon4 {
   width: 320px;
   height: 115.506px;
-  background: #ffe3de;
+  background: white;
   position: relative;
-  margin-top: 50px;
+  margin: auto;
   display: flex;
+  float: right;
   justify-content: center;
-  border-right: 4px solid #FFC85C ;
-  border-top: 4px solid #FFC85C ;
-  border-bottom: 4px solid #FFC85C ;
+  border-right: 4px solid #f8ab12 ;
+  border-top: 4px solid #f8ab12 ;
+  border-bottom: 4px solid #f8ab12 ;
   border-radius: 5px;
 }
 #hexagon4::before {
@@ -187,7 +201,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 57.753px solid #FFC85C ;
+  border-bottom: 57.753px solid #f8ab12 ;
 }
 #hexagon4::after {
   content: "";
@@ -198,20 +212,21 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-top: 57.753px solid #FFC85C ;
+  border-top: 57.753px solid #f8ab12 ;
 }
 
 #hexagon5 {
   width: 280px;
   height: 115.506px;
-  background: #ffe3de;
+  background: white;
   position: relative;
-  margin-top: 50px;
+  margin: auto;
   display: flex;
+  float: left;
   justify-content: center;
-  border-left: 4px solid #FD3A69 ;
-  border-top: 4px solid #FD3A69 ;
-  border-bottom: 4px solid #FD3A69 ;
+  border-left: 4px solid #f8184d;
+  border-top: 4px solid #f8184d;
+  border-bottom: 4px solid #f8184d;
   border-radius: 5px;
 }
 #hexagon5::before {
@@ -223,7 +238,7 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 57.753px solid #FD3A69 ;
+  border-bottom: 57.753px solid #f8184d ;
 }
 #hexagon5::after {
   content: "";
@@ -234,5 +249,5 @@ h6 {
   height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
-  border-top: 57.753px solid #FD3A69 ;
+  border-top: 57.753px solid #f8184d ;;
 }

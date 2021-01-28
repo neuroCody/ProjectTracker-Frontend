@@ -6,7 +6,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
@@ -21,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="/fontawesome/svgs/Logo.svg" id="logo" alt="Projhex Logo">
+                    <img src="/fontawesome/svgs/Logo.svg" class="image-fluid" id="logo" alt="Projhex Logo">
                 </div>
                 <div class="col">
                     <h1>Projhex</h1>
@@ -48,54 +49,120 @@
     </nav>
 
     <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-6 text-center col-md-6">
+        <div class="row row-content align-items-center pb-5">
+            <div class="col-sm-6 text-center col-md-6 pt-4">
                 <h2 class="text-center" id="tagline">Project Tracking Available Anywere.</h2>
                 <p class="d-none d-sm-block" id="tagParagraph">In a world where remote work is becoming more necessary, keep your team in the loop on important tasks</p>
             </div>
-            <div class="col col-xs-0">
-                <div class="media hidden-xs-down">
-                    <img src="/images/remoteWorkDarkSM.jpg" alt="Remote Workspace" class="d-none d-sm-block mr-3 img-thumbnail" id="remoteWork">
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center justify-content-start p-4">
-            <div class="col col-sm-2">
-                <div id="hexagon1">
-                    <span class="hexText">Develop</span>
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center justify-content-end p-4">
-            <div class="col col-sm-7 col-md-5 col-lg-4">
-                <div id="hexagon2">
-                    <span class="hexText">Organize</span>
-                </div>
-            </div>
-        </div>
-    
-        <div class="row row-content align-items-center justify content-start p-4">
-            <div class="col col-sm-2">
-                <div id="hexagon3">
-                    <span class="hexText">Collaborate</span>
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center justify-content-end p-4">
-            <div class="col col-sm-7 col-md-5 col-lg-4">
-                <div id="hexagon4">
-                    <span class="hexText">Update</span>
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center justify-content-start p-4">
-            <div class="col col-sm-2">
-                <div id="hexagon5">
-                    <span class="hexText">Deliver</span>
+            <div class="col">
+                <div class="media">
+                    <!-- space for an image.-->
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row row-content align-items-center p-5">
+            <div class="col pb-3">
+                <span id="hexagon1">
+                    <h4 class="hexText">Develop</h4>
+                </span>
+            </div>
+            <img class="d-none d-md-block" src="images/idea-vector-background-xs.jpg" alt="Idea">
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center pt-2">
+                        <p class="d-none d-md-block">
+                        Providing a space for creativity to grow and mature. Giving you the tools to transform Ideas into reality.
+                        </p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center p-5">
+            <div class="col order-last pb-2">
+                <span id="hexagon2">
+                    <h4 class="hexText">Organize</h4>
+                </span>
+            </div>
+            <img class="d-none d-md-block" src="images/puzzle-planet-xs.png" alt="planet">
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <p class="d-none d-md-block">
+                        Maintain a high level of Focus within each project. Arrange your thoughts into a clear vision of the big picture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row row-content align-items-center p-5">
+            <div class="col pb-2">
+                <span id="hexagon3">
+                    <h4 class="hexText">Collaborate</h4>
+                </span>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center pt-5">
+                        <img class="d-none d-md-block" src="images/Virtual-communication-concept-sm-100.jpg" alt="Virtual Communication">
+                        <p class="d-none d-md-block">
+                        Stay connected with important contacts. Give and receive feedback in real time, anywhere you have internet.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center p-5">
+            <div class="col order-last pb-2">
+                <span id="hexagon4">
+                    <h4 class="hexText">Update</h4>
+                </span>
+            </div>
+            <img class="d-none d-md-block" src="images/Update-img-xs.jpg" alt="Update Symbol">
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <p class="d-none d-md-block">
+                        Proirities Change as projects advance. Make sure everyone knows the next big steps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center p-5">
+            <div class="col pb-2">
+                <span id="hexagon5">
+                    <h4 class="hexText">Deliver</h4>
+                </span>
+            </div>
+            <img class="d-none d-md-block" src="images/Growth-chart-sm.jpg" alt="Growth Chart">
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <p class="d-none d-md-block">
+                        Meet and exceed client expectations by cutting out busy work, redundant meetings and wasted hours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                </div>
+            </div>
+        </div>
+    
+    </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -103,5 +170,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
+
 
 </html>
