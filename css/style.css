@@ -41,6 +41,10 @@ h6 {
   padding: 20px 0px;
 }
 
+.fa{
+  color: white;
+}
+
 .jumbotron {
   margin: 0;
   padding: 20px;
@@ -58,6 +62,10 @@ h6 {
 
 #tagParagraph{
   font-size: 25px;
+}
+
+.hexText{
+  font-size: 75px;
 }
 
 #hexagon1 {
@@ -96,13 +104,13 @@ h6 {
   border-right: 100px solid transparent;
   border-top: 57.753px solid #0ebebe;
 }
-#hexagon1:hover{
-  
+
+#hexPara1 {
+  border-right: 3px solid #0ebebe;
+  border-bottom: 3px solid #0ebebe;
+  padding: auto;
 }
 
-.hexText{
-  font-size: 75px;
-}
 
 #hexagon2 {
   width: 320px;
@@ -139,6 +147,12 @@ h6 {
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-top: 57.753px solid #92d61c;
+}
+
+#hexPara2 {
+  border-left: 3px solid #92d61c;
+  border-top: 3px solid #92d61c;
+  : 3px solid #92d61c;
 }
 
 
@@ -178,6 +192,11 @@ h6 {
   border-top: 57.753px solid #f1d325 ;
 }
 
+#hexPara3 {
+  border-left: 3px solid #f1d325;
+  border-bottom: 3px solid #f1d325;
+}
+
 #hexagon4 {
   width: 320px;
   height: 115.506px;
@@ -215,6 +234,11 @@ h6 {
   border-top: 57.753px solid #f8ab12 ;
 }
 
+#hexPara4 {
+  border-top: 3px solid #f8ab12;
+  border-right: 3px solid #f8ab12;
+}
+
 #hexagon5 {
   width: 280px;
   height: 115.506px;
@@ -250,4 +274,10 @@ h6 {
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-top: 57.753px solid #f8184d ;;
+}
+
+#hexPara5 {
+  border-right: 3px solid #f8184d;
+  border-bottom: 3px solid #f8184d;
+  padding: auto;
 }
