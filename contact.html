@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <mata name="viewport" content="width=device width, initial scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Projhex: Project Tracking</title>
+    </head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="/fontawesome/svgs/Logo.svg" class="image-fluid" id="logo" alt="Projhex Logo">
+                </div>
+                <div class="col">
+                    <h1>Projhex</h1>
+                    <h6>Web Based Project Tracking</h6>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#projhexNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="projhexNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!--Breadcrumb-->
+            </div>
+        </div>
+
+        <div class="row row-content justify-content-center">
+            <div class="col-12 text-center">
+                <h1>Let us know what you think!</h1>
+                <hr />
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group row justify-content-center">
+                        <label for="firstName" class="col-md-2 col-form-label"><strong>First Name</strong></label>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name"/>
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <label for="lastName" class="col-md-2 col-form-label"><strong>Last Name</strong></label>
+                        <div class="col-md-7 justify-content-center">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="lastName" />
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <label for="areaCode" class="col-md-2 col-form-label"><strong>Phone Number</strong></label>
+                        <div class="col-4 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code" />
+                        </div>
+                        <div class="col-8 col-md-4">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <label for="comments" class="col-md-2 col-form-label"><strong>Comments</strong></label>
+                        <div class="col-md-7">
+                            <textarea class="form-control" name="comments" id="comments" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset-md-4 col-md-9">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="offset-md-2 col-sm-6">
+                <h4>Company Address</h4>
+                <address>
+                    Projhex Holdings<br />
+                    47 Projhex Plaza<br />
+                    Denver, CO 80123
+                </address>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-link" href="tel:+13035556789"><i class="fa fa-phone"></i>1-303-555-6789</a><br />
+                <a role="button" class="btn btn-link" href="mailto:support@projhex.net"><i class="fa fa-envelope"></i>support@projhex.net </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-social-icon btn facebook" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook socialIcon"></i></a>
+                    <a class="btn btn-social-icon" href="http://twitter.com/" target="_blank" rel="noopener ref"><i class="fa fa-twitter socialIcon"></i></a>
+                    <a class="btn btn-social-icon" href="http://reddit.com" target="_blank" rel="noopener noref"><i class="fa fa-reddit-alien socialIcon"></i></a>
+                    <a class="btn btn-social-icon " href="http://linkedin.com" target="_blank" rel="noopener noref"><i class="fa fa-linkedin socialIcon"></i></a>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-link btn-lg text-white float-right" href="mailto: support@projhex.net"><i class="fa fa-envelope"></i>Email us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
