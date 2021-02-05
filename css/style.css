@@ -10,10 +10,16 @@ body{
 
 h1 {
   font-size: 4.5rem;
+  font-family: 'Exo 2', sans-serif;
 }
 
 h2{
   margin-bottom: 90px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h3, h4{
+  font-family: 'Exo 2', sans-serif;
 }
 
 
