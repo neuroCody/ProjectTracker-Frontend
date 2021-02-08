@@ -18,7 +18,7 @@ h2{
   font-family: 'Exo 2', sans-serif;
 }
 
-h3, h4{
+h3, h4, h6{
   font-family: 'Exo 2', sans-serif;
 }
 
@@ -453,6 +453,15 @@ h3, h4{
   margin: auto;
 }
 
+.carousel-caption {
+  background-color: rgba(36, 22, 99, 0.685);
+  max-height: 150px;
+}
+
+.carousel {
+  border: 2px solid rgb(36, 22, 99);
+}
+
 #chatHeader {
   background-image: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));;
 }
@@ -501,3 +510,4 @@ h3, h4{
   height: 15px;
   font-size: 10px;
 }
+
