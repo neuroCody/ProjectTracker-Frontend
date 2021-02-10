@@ -22,7 +22,13 @@ h3, h4, h6{
   font-family: 'Exo 2', sans-serif;
 }
 
+.topBuffer {
+  margin-top: 200px;
+}
 
+.topBuffer1 {
+  margin-top: 50px;
+}
 
 .row-content {
   padding: 80px 20px; 
@@ -522,3 +528,7 @@ h3, h4, h6{
   font-size: 10px;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
