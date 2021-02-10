@@ -49,7 +49,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container parallax">
         <div class="row">
             <div class="col">
                 <!--Breadcrumb-->
@@ -60,7 +60,17 @@
                 <h1>Tools we offer</h1>
             </div>
         </div>
-        <div class="row row-content vh-80">
+        <style>
+            .parallax{
+                background-image: url(images/v1_3.png);
+                height: 20%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+        <div class="row row-content vh-80" style="background-color: white;">
             <div class="col col-md-6 ">
                 <h2 class="featHeader">Project Creation</h2>
                 <p class="featParagraph">Use our project creator to set up necessary steps and track them through to completion. Assign specific team members to each task for organized workflow.</p>
@@ -188,7 +198,7 @@
         </div>
         <hr />
         
-        <div class="row row-content vh-80">
+        <div class="row row-content vh-95">
             <div class="col col-md-6 ">
                 <h2 class="featHeader">Syncronized Calendar Updates</h2>
                 <p class="featParagraph">The Gantt Chart inspired timelne helps keep progress and upcoming deadlines in picture perfect view.</p>
