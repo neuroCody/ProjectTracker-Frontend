@@ -68,6 +68,18 @@ h3, h4, h6{
   background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
 }
 
+.modal-header {
+  background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
+}
+
+.close {
+  color: white;
+}
+
+.btn-sm {
+  background-color: rgb(36, 22, 99);
+}
+
 #tagline{
   font-size: 50px;
 }
